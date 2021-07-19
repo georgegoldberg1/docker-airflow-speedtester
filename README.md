@@ -12,6 +12,9 @@ This project uses a tweaked version of the official Airflow docker-compose.yaml 
 ## Set up from git clone
 - Clone the repo, then build the image from the Dockerfile, run the containers from the docker-compose file, and you're good to go.
 
+### Build the custom docker image locally
+```docker build . --tag speedtest-airflow:speedtest_app```
+
 ### Initialise the airflow database  
 ```docker-compose up airflow-init```
 
