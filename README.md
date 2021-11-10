@@ -84,3 +84,7 @@ volumes:
 
 ## note - for emergencies only
  (it will deleted ALL your saved Dagruns and results - only when removeing the app entirely from your system): docker-compose down --volumes --rmi all
+ 
+ 
+## CONTACT
+George Goldberg (ggoldberg.inbox@gmail.com)
